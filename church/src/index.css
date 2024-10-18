@@ -54,14 +54,66 @@ input::placeholder{
   color: #000;
 }
 
+.services{
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../src/components/images/notices.jpeg);
+  background-attachment: fixed;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+
+th{
+  font-weight: bolder;
+  font-size: x-large;
+}
+td{
+  font-size: large;
+}
+.order a{
+  color: #fff;
+}
+
+.location h1{
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.pastors{
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../src/components/images/sermon.jpeg);
+  background-attachment: fixed;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+
 @media (max-width: 1300px) {
   body{
+    width: 100%;
     overflow-x: hidden;
   }
 }
 
-@media (max-width: 677px) {
+@media (max-width: 600px) {
   body{
+    width: 100%;
     overflow-x: hidden;
+  }
+  .services{
+    width: 100%;
+    margin: auto;
   }
 }
